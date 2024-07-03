@@ -8,6 +8,14 @@
 import SwiftUI
 import SwiftData
 
+enum SortOrder: String, Identifiable, CaseIterable {
+    case status, title, author
+    
+    var id: Self {
+        self
+    }
+}
+
 struct EditBookView: View {
     @Environment(\.dismiss) private var dismiss
     let book: Book
@@ -20,7 +28,7 @@ struct EditBookView: View {
     @State private var dateStarted = Date.distantPast
     @State private var dateCompleted = Date.distantPast
     @State private var firstView = true
-    
+        
     var body: some View {
         HStack {
             Text("Status")
