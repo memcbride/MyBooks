@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91136CEF2C34ECBF0035B56C /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91136CEE2C34ECBF0035B56C /* RatingsView.swift */; };
+		91136CF12C35DDC40035B56C /* BookSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91136CF02C35DDC40035B56C /* BookSamples.swift */; };
+		91136CF32C35E0F20035B56C /* PreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91136CF22C35E0F20035B56C /* PreviewContainer.swift */; };
 		919C60A02C3369D50027AD5A /* MyBooksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919C609F2C3369D50027AD5A /* MyBooksApp.swift */; };
-		919C60A22C3369D50027AD5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919C60A12C3369D50027AD5A /* ContentView.swift */; };
-		919C60A42C3369D50027AD5A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919C60A32C3369D50027AD5A /* Item.swift */; };
+		919C60A22C3369D50027AD5A /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919C60A12C3369D50027AD5A /* BookListView.swift */; };
 		919C60A62C3369D60027AD5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919C60A52C3369D60027AD5A /* Assets.xcassets */; };
 		919C60A92C3369D60027AD5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919C60A82C3369D60027AD5A /* Preview Assets.xcassets */; };
 		919C60B32C3369D60027AD5A /* MyBooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919C60B22C3369D60027AD5A /* MyBooksTests.swift */; };
 		919C60BD2C3369D60027AD5A /* MyBooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919C60BC2C3369D60027AD5A /* MyBooksUITests.swift */; };
 		919C60BF2C3369D60027AD5A /* MyBooksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919C60BE2C3369D60027AD5A /* MyBooksUITestsLaunchTests.swift */; };
+		919C60CD2C336ABF0027AD5A /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919C60CC2C336ABF0027AD5A /* Book.swift */; };
+		919C60CF2C3372560027AD5A /* newBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919C60CE2C3372560027AD5A /* newBookView.swift */; };
+		919C60D12C3389670027AD5A /* EditBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919C60D02C3389670027AD5A /* EditBookView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		91136CEE2C34ECBF0035B56C /* RatingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingsView.swift; path = "../../../../Downloads/MyBooks-1stVideo_CRUD 2/MyBooks/RatingsView.swift"; sourceTree = "<group>"; };
+		91136CF02C35DDC40035B56C /* BookSamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSamples.swift; sourceTree = "<group>"; };
+		91136CF22C35E0F20035B56C /* PreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContainer.swift; sourceTree = "<group>"; };
 		919C609C2C3369D50027AD5A /* MyBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		919C609F2C3369D50027AD5A /* MyBooksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBooksApp.swift; sourceTree = "<group>"; };
-		919C60A12C3369D50027AD5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		919C60A32C3369D50027AD5A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		919C60A12C3369D50027AD5A /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
 		919C60A52C3369D60027AD5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		919C60A82C3369D60027AD5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		919C60AE2C3369D60027AD5A /* MyBooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +53,10 @@
 		919C60B82C3369D60027AD5A /* MyBooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBooksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		919C60BC2C3369D60027AD5A /* MyBooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBooksUITests.swift; sourceTree = "<group>"; };
 		919C60BE2C3369D60027AD5A /* MyBooksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBooksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		919C60CB2C336A140027AD5A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		919C60CC2C336ABF0027AD5A /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		919C60CE2C3372560027AD5A /* newBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newBookView.swift; sourceTree = "<group>"; };
+		919C60D02C3389670027AD5A /* EditBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBookView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +87,7 @@
 		919C60932C3369D50027AD5A = {
 			isa = PBXGroup;
 			children = (
+				919C60CB2C336A140027AD5A /* README.md */,
 				919C609E2C3369D50027AD5A /* MyBooks */,
 				919C60B12C3369D60027AD5A /* MyBooksTests */,
 				919C60BB2C3369D60027AD5A /* MyBooksUITests */,
@@ -97,8 +109,11 @@
 			isa = PBXGroup;
 			children = (
 				919C609F2C3369D50027AD5A /* MyBooksApp.swift */,
-				919C60A12C3369D50027AD5A /* ContentView.swift */,
-				919C60A32C3369D50027AD5A /* Item.swift */,
+				919C60CC2C336ABF0027AD5A /* Book.swift */,
+				919C60A12C3369D50027AD5A /* BookListView.swift */,
+				91136CEE2C34ECBF0035B56C /* RatingsView.swift */,
+				919C60CE2C3372560027AD5A /* newBookView.swift */,
+				919C60D02C3389670027AD5A /* EditBookView.swift */,
 				919C60A52C3369D60027AD5A /* Assets.xcassets */,
 				919C60A72C3369D60027AD5A /* Preview Content */,
 			);
@@ -109,6 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				919C60A82C3369D60027AD5A /* Preview Assets.xcassets */,
+				91136CF02C35DDC40035B56C /* BookSamples.swift */,
+				91136CF22C35E0F20035B56C /* PreviewContainer.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -260,8 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				919C60A22C3369D50027AD5A /* ContentView.swift in Sources */,
-				919C60A42C3369D50027AD5A /* Item.swift in Sources */,
+				91136CF12C35DDC40035B56C /* BookSamples.swift in Sources */,
+				919C60CF2C3372560027AD5A /* newBookView.swift in Sources */,
+				91136CEF2C34ECBF0035B56C /* RatingsView.swift in Sources */,
+				919C60D12C3389670027AD5A /* EditBookView.swift in Sources */,
+				919C60CD2C336ABF0027AD5A /* Book.swift in Sources */,
+				919C60A22C3369D50027AD5A /* BookListView.swift in Sources */,
+				91136CF32C35E0F20035B56C /* PreviewContainer.swift in Sources */,
 				919C60A02C3369D50027AD5A /* MyBooksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +451,7 @@
 				DEVELOPMENT_TEAM = H9358XX337;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "My Books";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -458,6 +481,7 @@
 				DEVELOPMENT_TEAM = H9358XX337;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "My Books";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
