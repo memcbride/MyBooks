@@ -15,9 +15,13 @@ class Book {
     var dateAdded: Date
     var dateStarted: Date
     var dateCompleted: Date
-    var summary: String
+    @Attribute(originalName: "summary")
+    var synopsis: String
     var rating: Int?
     var status: Status.RawValue
+    var recommendedBy: String = ""
+    @Relationship(deleteRule: .cascade)
+    var quotes: [Quote]?
     
     init(
         title: String,
@@ -25,18 +29,20 @@ class Book {
         dateAdded: Date = Date.now,
         dateStarted: Date = Date.distantPast,
         dateCompleted: Date = Date.distantPast,
-        summary: String = "",
+        synopsis: String = "",
         rating: Int? = nil,
-        status: Status = .onShelf
+        status: Status = .onShelf,
+        recommendBy: String = ""
     ) {
         self.title = title
         self.author = author
         self.dateAdded = dateAdded
         self.dateStarted = dateStarted
         self.dateCompleted = dateCompleted
-        self.summary = summary
+        self.synopsis = synopsis
         self.rating = rating
         self.status = status.rawValue
+        self.recommendedBy = recommendBy
     }
     
     var icon: Image {
